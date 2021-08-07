@@ -10,6 +10,9 @@ import IcNotif from './ic-notif.svg';
 import IcStartup from './ic-startup.svg';
 import IcAfterSales from './ic-aftersales.svg';
 import IcPerbaikan from './ic-perbaikan.svg';
+import IcPerson from './ic-person.svg';
+import IcTask from './ic-task.svg';
+import IcExit from './ic-exit.svg';
 
 export {
     IcHomeOn,
@@ -24,4 +27,7 @@ export {
     IcAfterSales,
     IcPerbaikan,
     IcStartup,
+    IcPerson,
+    IcTask,
+    IcExit,
 }

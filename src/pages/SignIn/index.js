@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
     marginBottom: 70,
+    fontFamily:'Poppins-Regular'
   },
   logoContainer: {
     justifyContent: 'center',
