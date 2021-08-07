@@ -6,6 +6,10 @@ import IcMsgOn from './ic-msg-on.svg';
 import IcMsgOff from './ic-msg-off.svg';
 import IcAkunOn from './ic-akun-on.svg';
 import IcAkunOff from './ic-akun-off.svg';
+import IcNotif from './ic-notif.svg';
+import IcStartup from './ic-startup.svg';
+import IcAfterSales from './ic-aftersales.svg';
+import IcPerbaikan from './ic-perbaikan.svg';
 
 export {
     IcHomeOn,
@@ -16,4 +20,8 @@ export {
     IcMsgOff,
     IcAkunOn,
     IcAkunOff,
+    IcNotif,
+    IcAfterSales,
+    IcPerbaikan,
+    IcStartup,
 }
