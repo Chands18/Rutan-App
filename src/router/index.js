@@ -3,17 +3,18 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {Akun, Beranda, Pekerjaan, Pesan, SignIn, SplashScreen} from '../pages';
+import { BottomNavigator } from '../components/molecules';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
 const MainApp = () => {
   return(
-    <Tab.Navigator>
-      <Tab.Screen name="Beranda" component={Beranda} />
-      <Tab.Screen name="Pekerjaan" component={Pekerjaan} />
-      <Tab.Screen name="Pesan" component={Pesan} />
-      <Tab.Screen name="Akun" component={Akun} />
+    <Tab.Navigator tabBar={props => <BottomNavigator {...props}/>} >
+      <Tab.Screen name="Beranda" component={Beranda} options={{headerShown: false}}/>
+      <Tab.Screen name="Pekerjaan" component={Pekerjaan} options={{headerShown: false}}/>
+      <Tab.Screen name="Pesan" component={Pesan} options={{headerShown: false}}/>
+      <Tab.Screen name="Akun" component={Akun} options={{headerShown: false}}/>
     </Tab.Navigator>
   )
 }
