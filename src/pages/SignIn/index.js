@@ -3,7 +3,7 @@ import {StyleSheet, Text, TextInput, View} from 'react-native';
 import {LogoSplash} from '../../assets';
 import {Button, Gap} from '../../components/atoms';
 
-const SignIn = () => {
+const SignIn = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.login}>Login</Text>
@@ -16,7 +16,7 @@ const SignIn = () => {
         <TextInput placeholder="Password" style={styles.input} />
       </View>
       <Gap height={20} />
-      <Button text="Masuk" textColor="white" />
+      <Button text="Masuk" textColor="white" onPress={()=> navigation.replace('MainApp')} />
     </View>
   );
 };
