@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     color: '#D32421',
   },
   akun: {
-    fontSize: 20,
+    fontSize: 25,
     color: '#2E2D98',
     fontWeight: 'bold',
     fontFamily: 'Poppins-Medium',
