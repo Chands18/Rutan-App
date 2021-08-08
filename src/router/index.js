@@ -2,7 +2,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import {StyleSheet} from 'react-native';
-import {Akun, Beranda, Pekerjaan, Pesan, SignIn, SplashScreen} from '../pages';
+import {Akun, Beranda, DataDiri, Pekerjaan, Pesan, SignIn, SplashScreen} from '../pages';
 import { BottomNavigator } from '../components/molecules';
 
 const Stack = createNativeStackNavigator();
@@ -35,6 +35,11 @@ const Router = () => {
       <Stack.Screen
         name="MainApp"
         component={MainApp}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="DataDiri"
+        component={DataDiri}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

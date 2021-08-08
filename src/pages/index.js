@@ -4,6 +4,7 @@ import Akun from "./Akun";
 import Beranda from "./Beranda";
 import Pekerjaan from "./Pekerjaan";
 import Pesan from "./Pesan";
+import DataDiri from "./DataDiri";
 
 export {
     SplashScreen,
@@ -12,4 +13,5 @@ export {
     Beranda,
     Pekerjaan,
     Pesan,
+    DataDiri,
 }
