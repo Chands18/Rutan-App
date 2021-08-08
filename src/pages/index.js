@@ -5,6 +5,7 @@ import Beranda from "./Beranda";
 import Pekerjaan from "./Pekerjaan";
 import Pesan from "./Pesan";
 import DataDiri from "./DataDiri";
+import ChatScreen from "./ChatScreen";
 
 export {
     SplashScreen,
@@ -14,4 +15,5 @@ export {
     Pekerjaan,
     Pesan,
     DataDiri,
+    ChatScreen,
 }

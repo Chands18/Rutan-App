@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: '#2E2D98',
     fontWeight: 'bold',
+    fontFamily:'Poppins-Medium'
   },
   borderPhoto: {
     borderWidth: 1,
