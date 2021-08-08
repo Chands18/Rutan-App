@@ -9,12 +9,14 @@ import {
   LogoPt,
 } from '../../assets';
 
-const Beranda = () => {
+const Beranda = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <LogoPt />
-        <IcNotif />
+        <TouchableOpacity onPress={()=> navigation.navigate('Notifikasi')} >
+          <IcNotif />
+        </TouchableOpacity>
       </View>
       <Banner />
       <View style={styles.serviceContainer}>
@@ -28,7 +30,9 @@ const Beranda = () => {
           <TouchableOpacity>
             <IcAfterSales />
             <Text style={styles.text}>After Sales </Text>
-            <Text style={{ textAlign:'center', fontWeight:'bold' }}>Service</Text>
+            <Text style={{textAlign: 'center', fontWeight: 'bold'}}>
+              Service
+            </Text>
           </TouchableOpacity>
         </View>
         <View>
@@ -58,8 +62,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     marginTop: 30,
   },
-  text:{
-      marginTop:15,
-      fontWeight:'bold',
-  }
+  text: {
+    marginTop: 15,
+    fontWeight: 'bold',
+  },
 });
