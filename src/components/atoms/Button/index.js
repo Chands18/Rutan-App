@@ -16,11 +16,11 @@ export default Button;
 const styles = StyleSheet.create({
   container: color => ({
     backgroundColor: color,
-    padding: 12,
+    padding: 24,
     borderRadius: 8,
   }),
   text: color => ({
-    fontSize: 14,
+    fontSize: 16,
     color: color,
     textAlign: 'center',
   }),

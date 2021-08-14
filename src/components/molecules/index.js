@@ -1,5 +1,4 @@
-import BottomNavigator from "./BottomNavigator";
+import BottomNavigator from './BottomNavigator';
+import PekerjaanTabSection from './PekerjaanTabSection';
 
-export {
-    BottomNavigator,
-}
+export {BottomNavigator, PekerjaanTabSection};
